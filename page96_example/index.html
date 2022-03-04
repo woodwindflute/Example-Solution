@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+	</head>
+	<body>
+		<a-scene>
+			<a-asset>
+				<a-asset-item id="Heart-mtl" src="img\Heart.mtl"></a-asset-item>
+				<a-asset-item id="Heart-obj" src="img\Heart.obj"></a-asset-item>
+				<img id="slide1" src="img\slide\投影片1.JPG"></img>
+				<img id="slide2" src="img\slide\投影片2.JPG"></img>
+				<img id="slide3" src="img\slide\投影片3.JPG"></img>
+				<img id="mainsky" src="img\mainsky.jpeg"></img>
+			</a-asset>
+			<a-image width="3" height="2" position="-4 1 -3" src="#slide1"></a-image>
+			<a-image width="3" height="2" position="0 1 -3" src="#slide2"></a-image>
+			<a-image width="3" height="2" position="4 1 -3" src="#slide3"></a-image>
+			<a-entity position="0 2 -3" animation="to: 0 360 0; property: rotation; loop: true; dur:2000">
+				<a-obj-model rotation="270 0 0" src="#Heart-obj" mtl="#Heart-mtl" scale="0.1 0.1 0.1"></a-obj-model>
+			</a-entity>
+			<a-sky src="#mainsky"></a-sky>
+		</a-scene>
+	</body>
+</html>
+
+
+
+

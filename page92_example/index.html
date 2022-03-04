@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+	</head>
+	<body>
+		<a-scene>
+			<a-asset>
+				<a-asset-item id="Heart-mtl" src="img\Heart.mtl"></a-asset-item>
+				<a-asset-item id="Heart-obj" src="img\Heart.obj"></a-asset-item>
+			</a-asset>
+			<a-entity position="0 0 -4" animation="to: 0 360 0; property: rotation; loop: true; dur:2000">
+				<a-obj-model rotation="270 0 0" src="#Heart-obj" mtl="#Heart-mtl" scale="0.1 0.1 0.1"></a-obj-model>
+			</a-entity>
+			</a-scene>
+	</body>
+</html>
+
+
