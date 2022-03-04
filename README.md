@@ -1,6 +1,7 @@
 # Example-Solution
-110 教育部師培計畫 沉浸式新興科技體驗設計 練習範例與解答
-可參見以下啟動方法
+110 教育部師培計畫 沉浸式新興科技體驗設計 練習範例與解答  
+範例、解答頁數對照至 WebVR.pptx 投影片頁碼  
+可參見以下啟動方法  
 ## 方法一
 須關閉瀏覽器安全性設定，如：  
 `cd C:\Program Files (x86)\Google\Chrome\Application`  
