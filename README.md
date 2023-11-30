@@ -5,8 +5,11 @@
 ## 方法一
 須關閉瀏覽器安全性設定，如：  
 `cd C:\Program Files (x86)\Google\Chrome\Application`  
-`chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security`  
-再以此模式下的 chrome 啟動  
+`chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security`
+若為 Edge 瀏覽器同理：
+`msedge.exe --user-data-dir="C:/Chrome dev session" --disable-web-security`
+再以此模式下的 chrome/Edge 啟動
+(註：指令中的 C:/Chrome dev session 可替換為任意資料夾，只要有此資料夾即可在對應資料夾內生成必須檔案)
 ## 方法二
 使用網頁伺服器，如：  
 `cd C:\myProject`  
